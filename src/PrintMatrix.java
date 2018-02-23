@@ -19,8 +19,8 @@ public class PrintMatrix {
         int ystart = 0, yend = ylen - 1;
         int x, y;
         boolean flag;
-        while(true) {
-            if(xstart >= xend || ystart == yend) break;
+        while(xstart < xend && ystart < yend) {
+
             x = xstart;
             y = ystart;
             flag = false;
@@ -80,17 +80,17 @@ public class PrintMatrix {
 //                {7, 8, 9}
 //        };
 
-//        int[][] matrix = {
-//                {1, 2, 3, 4},
-//                {5, 6, 7, 8},
-//                {9, 10, 11, 12},
-//                {13, 14, 15, 16}
-//        };
-
         int[][] matrix = {
-                {1, 2, 3},
-                {4, 5, 6}
+                {1, 2, 3, 4},
+                {5, 6, 7, 8},
+                {9, 10, 11, 12},
+                {13, 14, 15, 16}
         };
+
+//        int[][] matrix = {
+//                {1, 2, 3},
+//                {4, 5, 6}
+//        };
 
 //        int[][] matrix = {
 //                {1, 2, 3},
