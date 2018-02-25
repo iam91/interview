@@ -1,4 +1,6 @@
-import java.util.Arrays;
+import java.util.Collections;
+import java.util.ArrayList;
+import java.util.Comparator;
 
 public class PrintMinNumber {
     public String PrintMinNumber(int [] numbers) {
@@ -7,14 +9,24 @@ public class PrintMinNumber {
         int n = numbers.length;
         if(n == 0) return "";
 
-        String[] nums = new String[n];
+        ArrayList<Integer> nums = new ArrayList<>();
         for(int i = 0; i < n; i++) {
-            nums[i] = String.valueOf(numbers[i]);
+            nums.add(numbers[i]);
         }
 
-        Arrays.sort(nums);
+        Collections.sort(nums, new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                String s1 = o1 + "" + o2;
+                String s2 = o2 + "" + o1;
+                return s1.compareTo(s2);
+            }
+        });
 
-        return "";
+        StringBuilder ret = new StringBuilder();
+        for(Integer nn: nums) ret.append(String.valueOf(nn));
+
+        return ret.toString();
     }
 
     public static void main(String[] args) {
