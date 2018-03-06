@@ -12,14 +12,14 @@ public class PreorderIter {
 
         while(curr != null || !stack.isEmpty()) {
 
-            // 遍历当前节点及其右子树
+            // 遍历`当前节点`及`其左子树`
             while(curr != null) {
                 ret.add(curr.val);
                 stack.add(curr);
                 curr = curr.left;
             }
 
-            // 回溯
+            // 回溯`右子树`
             curr = stack.pop();
             curr = curr.right;
         }

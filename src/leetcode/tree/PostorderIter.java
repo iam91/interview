@@ -11,19 +11,24 @@ public class PostorderIter {
         TreeNode curr = root;
 
         while(curr != null || !stack.isEmpty()) {
+
+            // 遍历 `左子树`
             while(curr != null) {
                 stack.push(curr);
                 curr = curr.left;
             }
 
+            // 回溯
             curr = stack.peek();
             if(righted.contains(curr)) {
+                // 遍历 `当前节点`
                 ret.add(curr.val);
 
                 stack.pop();
                 righted.remove(curr);
                 curr = null;
             } else {
+                // 遍历 `右子树`
                 righted.add(curr);
                 curr = curr.right;
             }

@@ -12,13 +12,19 @@ public class InorderIter {
         TreeNode curr = root;
 
         while(curr != null || !stack.isEmpty()) {
+
+            // 遍历`左子树`
             while(curr != null) {
                 stack.push(curr);
                 curr = curr.left;
             }
 
+            //回溯
             curr = stack.pop();
+
+            // 遍历`当前节点`
             ret.add(curr.val);
+            // 遍历`右子树`
             curr = curr.right;
         }
 
