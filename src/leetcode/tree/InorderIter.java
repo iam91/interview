@@ -21,7 +21,6 @@ public class InorderIter {
 
             //回溯
             curr = stack.pop();
-
             // 遍历`当前节点`
             ret.add(curr.val);
             // 遍历`右子树`
