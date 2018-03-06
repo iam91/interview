@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e5d3c06-f9a0-414c-b3a1-b6fa51e338dc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/lintcode/sort/SortIntegerII.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/offer/FindNumsAppearOnce.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/offer/GetNumberOfK.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/FindContinuousSequence.java" afterPath="$PROJECT_DIR$/src/offer/FindContinuousSequence.java" />
-      <change beforePath="$PROJECT_DIR$/src/FindGreatestSumOfSubArray.java" afterPath="$PROJECT_DIR$/src/offer/FindGreatestSumOfSubArray.java" />
-      <change beforePath="$PROJECT_DIR$/src/FindNumbersWithSum.java" afterPath="$PROJECT_DIR$/src/offer/FindNumbersWithSum.java" />
-      <change beforePath="$PROJECT_DIR$/src/FindNumsAppearOnce.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/FirstNotRepeatingChar.java" afterPath="$PROJECT_DIR$/src/offer/FirstNotRepeatingChar.java" />
-      <change beforePath="$PROJECT_DIR$/src/GetLeastNumbers.java" afterPath="$PROJECT_DIR$/src/offer/GetLeastNumbers.java" />
-      <change beforePath="$PROJECT_DIR$/src/GetNumberOfK.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/HasPath.java" afterPath="$PROJECT_DIR$/src/offer/HasPath.java" />
-      <change beforePath="$PROJECT_DIR$/src/InversePairs.java" afterPath="$PROJECT_DIR$/src/offer/InversePairs.java" />
-      <change beforePath="$PROJECT_DIR$/src/IsContinuous.java" afterPath="$PROJECT_DIR$/src/offer/IsContinuous.java" />
-      <change beforePath="$PROJECT_DIR$/src/IsNumeric.java" afterPath="$PROJECT_DIR$/src/offer/IsNumeric.java" />
-      <change beforePath="$PROJECT_DIR$/src/IsPopOrder.java" afterPath="$PROJECT_DIR$/src/offer/IsPopOrder.java" />
-      <change beforePath="$PROJECT_DIR$/src/LastRemaining.java" afterPath="$PROJECT_DIR$/src/offer/LastRemaining.java" />
-      <change beforePath="$PROJECT_DIR$/src/LeftRotateString.java" afterPath="$PROJECT_DIR$/src/offer/LeftRotateString.java" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" afterPath="$PROJECT_DIR$/src/offer/ListNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/Match.java" afterPath="$PROJECT_DIR$/src/offer/Match.java" />
-      <change beforePath="$PROJECT_DIR$/src/MinNumberInRotateArray.java" afterPath="$PROJECT_DIR$/src/offer/MinNumberInRotateArray.java" />
-      <change beforePath="$PROJECT_DIR$/src/MoreThanHalfNum.java" afterPath="$PROJECT_DIR$/src/offer/MoreThanHalfNum.java" />
-      <change beforePath="$PROJECT_DIR$/src/MovingCount.java" afterPath="$PROJECT_DIR$/src/offer/MovingCount.java" />
-      <change beforePath="$PROJECT_DIR$/src/NumberOf1Between1AndN.java" afterPath="$PROJECT_DIR$/src/offer/NumberOf1Between1AndN.java" />
-      <change beforePath="$PROJECT_DIR$/src/Permutation.java" afterPath="$PROJECT_DIR$/src/offer/Permutation.java" />
-      <change beforePath="$PROJECT_DIR$/src/Permutation2.java" afterPath="$PROJECT_DIR$/src/offer/Permutation2.java" />
-      <change beforePath="$PROJECT_DIR$/src/PrintMatrix.java" afterPath="$PROJECT_DIR$/src/offer/PrintMatrix.java" />
-      <change beforePath="$PROJECT_DIR$/src/PrintMinNumber.java" afterPath="$PROJECT_DIR$/src/offer/PrintMinNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/ReConstructBinaryTree.java" afterPath="$PROJECT_DIR$/src/offer/ReConstructBinaryTree.java" />
-      <change beforePath="$PROJECT_DIR$/src/ReplaceSpace.java" afterPath="$PROJECT_DIR$/src/offer/ReplaceSpace.java" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseSentence.java" afterPath="$PROJECT_DIR$/src/offer/ReverseSentence.java" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" afterPath="$PROJECT_DIR$/src/offer/TreeNode.java" />
-      <change beforePath="$PROJECT_DIR$/src/UglyNumber.java" afterPath="$PROJECT_DIR$/src/offer/UglyNumber.java" />
-      <change beforePath="$PROJECT_DIR$/src/VerifySequenceOfBST.java" afterPath="$PROJECT_DIR$/src/offer/VerifySequenceOfBST.java" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode/tree/BuildFromInPost.java" afterPath="$PROJECT_DIR$/src/leetcode/tree/BuildFromInPost.java" />
+      <change beforePath="$PROJECT_DIR$/src/lintcode/sort/SortIntegerII.java" afterPath="$PROJECT_DIR$/src/lintcode/sort/SortIntegerII.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +17,18 @@
       <file leaf-file-name="SortIntegerII.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lintcode/sort/SortIntegerII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="108">
+              <caret line="87" column="4" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PostorderIter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/tree/PostorderIter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -118,8 +94,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1202" />
-    <option name="y" value="-11" />
+    <option name="x" value="360" />
+    <option name="y" value="-16" />
     <option name="width" value="744" />
     <option name="height" value="684" />
   </component>
@@ -152,6 +128,12 @@
               <item name="algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algo" type="b2602c69:ProjectViewProjectNode" />
@@ -386,7 +368,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -397,7 +379,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4161184" sideWeight="0.526475" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25041187" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25041187" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -761,7 +743,7 @@
         <state relative-caret-position="0">
           <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -773,14 +755,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leetcode/tree/PostorderIter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="28" lean-forward="false" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,10 +836,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/tree/PostorderIter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/lintcode/sort/SortIntegerII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="89" column="8" lean-forward="false" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+        <state relative-caret-position="108">
+          <caret line="87" column="4" lean-forward="true" selection-start-line="87" selection-start-column="4" selection-end-line="118" selection-end-column="5" />
           <folding />
         </state>
       </provider>

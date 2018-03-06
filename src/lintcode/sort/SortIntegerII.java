@@ -87,7 +87,35 @@ public class SortIntegerII {
 
     private void mergeSortII(int[] A) {
 
-        
+        int n = A.length;
+        int[] a = new int[n];
+
+        int len = 1;
+        while(len < n) {
+            int l = 0;
+            int mid = l + len;
+            while(mid < n) {
+                int r = Math.min(mid + len - 1, n - 1);
+
+                int i = l, j = mid, k = l;
+                while(i < mid && j <= r) {
+                    if(A[i] > A[j]) a[k++] = A[j++];
+                    else a[k++] = A[i++];
+                }
+
+                while(i < mid) a[k++] = A[i++];
+                while(j <= r) a[k++] = A[j++];
+
+                for(k = l; k <= r; k++) {
+                    A[k] = a[k];
+                }
+
+                l = l + 2 * len;
+                mid = l + len;
+            }
+
+            len *= 2;
+        }
     }
 
     private void swap(int[] A, int x, int y) {
