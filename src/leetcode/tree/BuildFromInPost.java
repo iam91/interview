@@ -11,12 +11,14 @@ public class BuildFromInPost {
         int rootVal = postorder[pr - 1];
         TreeNode root = new TreeNode(rootVal);
 
+        // 右子树集合
         int rightCnt = 0;
         for(int i = ir - 1; i >= il; i--) {
             if(inorder[i] != rootVal) rightCnt++;
             else break;
         }
 
+        // 左子树集合
         int leftCnt = ir - il - rightCnt - 1;
 
         root.left = build(postorder, inorder, pl, pl + leftCnt,
