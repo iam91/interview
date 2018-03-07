@@ -5,61 +5,45 @@ public class SortIntegerII {
      * @param A: an integer array
      * @return: nothing
      */
+
     public void sortIntegers2(int[] A) {
         // write your code here
-//        quickSort(A, 0, A.length - 1);
-        mergeSortII(A);
+        // quickSort(A, 0, A.length - 1);
+        // mergeSort(A, 0, A.length - 1);
+        // mergeSortII(A);
+        heapSort(A);
     }
 
-//    private void quickSort(int[] A, int l, int r) {
-//        if(l >= r) return;
-//
-//        int pivot = A[l];
-//        int pivotIdx = l;
-//
-//        // partition
-//        int i = l, j = r;
-//        while(i < j) {
-//            while(i < j && A[j] > pivot) {
-//                j--;
-//            }
-//            swap(A, j, pivotIdx);
-//            pivotIdx = j;
-//
-//            while(i < j && A[i] <= pivot) {
-//                i++;
-//            }
-//            swap(A, i, pivotIdx);
-//            pivotIdx = i;
-//        }
-//
-//        quickSort(A, l, pivotIdx - 1);
-//        quickSort(A, pivotIdx + 1, r);
-//    }
-
-    private void quickSort(int[] A, int l, int r) {
-        if(l >= r) return;
-
-        int pivot = A[l];
-
-        // partition
-        int i = l, j = r;
-        while(i < j) {
-            while(i < j && A[j] > pivot) {
-                j--;
-            }
-            A[i] = A[j];
-
-            while(i < j && A[i] <= pivot) {
-                i++;
-            }
-            A[j] = A[i];
+    private void heapSort(int[] A) {
+        int n = A.length;
+        // heapify
+        for(int i = n / 2; i >= 0; i--) {
+            maxHeap(A, i, n - 1);
         }
 
-        A[i] = pivot;
+        for(int i = n - 1; i > 0; i--) {
+            swap(A, i, 0);
+            maxHeap(A, 0, i - 1);
+        }
+    }
 
-        quickSort(A, l, i - 1);
-        quickSort(A, i + 1, r);
+    private void maxHeap(int[] A, int root, int tail) {
+        int parent = root;
+        while(parent < tail) {
+            int left = parent * 2 + 1;
+            int right = parent * 2 + 2;
+
+            int sinkIdx;
+            if(left > tail) return;
+            else if(right > tail) sinkIdx = left;
+            else if(A[left] > A[right]) sinkIdx = left;
+            else sinkIdx = right;
+
+            if(A[parent] >= A[sinkIdx]) return;
+
+            swap(A, parent, sinkIdx);
+            parent = sinkIdx;
+        }
     }
 
     private void mergeSort(int[] A, int l, int r) {
@@ -118,19 +102,34 @@ public class SortIntegerII {
         }
     }
 
+    private void quickSort(int[] A, int l, int r) {
+        if(l >= r) return;
+
+        int pivot = A[l];
+
+        // partition
+        int i = l, j = r;
+        while(i < j) {
+            while(i < j && A[j] > pivot) {
+                j--;
+            }
+            A[i] = A[j];
+
+            while(i < j && A[i] <= pivot) {
+                i++;
+            }
+            A[j] = A[i];
+        }
+
+        A[i] = pivot;
+
+        quickSort(A, l, i - 1);
+        quickSort(A, i + 1, r);
+    }
+
     private void swap(int[] A, int x, int y) {
         int t = A[x];
         A[x] = A[y];
         A[y] = t;
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {3,2,1,4,5};
-        SortIntegerII c = new SortIntegerII();
-        c.sortIntegers2(arr);
-
-        for(int a: arr) {
-            System.out.println(a);
-        }
     }
 }
