@@ -3,6 +3,33 @@ package leetcode.tree;
 import java.util.*;
 
 public class PostorderIter {
+    public List<Integer> postorderTraversalII(TreeNode root) {
+        List<Integer> ret = new ArrayList<>();
+        Stack<TreeNode> stack = new Stack<>();
+
+        TreeNode curr = root;
+        TreeNode lastVisit = null;
+
+        while(curr != null || !stack.isEmpty()) {
+            while(curr != null) {
+                stack.push(curr);
+                curr = curr.left;
+            }
+
+            curr = stack.peek();
+            if(curr.right == null || curr.right == lastVisit) {
+                stack.pop();
+                ret.add(curr.val);
+                lastVisit = curr;
+                curr = null;
+            } else {
+                curr = curr.right;
+            }
+        }
+
+        return ret;
+    }
+
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> ret = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
