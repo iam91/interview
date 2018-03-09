@@ -1,4 +1,4 @@
-package lintcode.dp.twoD;
+package lintcode.dp;
 
 public class LCS {
     /**
@@ -14,22 +14,15 @@ public class LCS {
         int n = A.length();
         int m = B.length();
 
-        int[][] dp = new int[n][m];
+        int[][] dp = new int[n + 1][m + 1];
 
-        for(int i = 0; i < n; i++) {
-            dp[i][0] = A.charAt(i) == B.charAt(0) ? 1 : 0;
-        }
-        for(int i = 0; i < m; i++) {
-            dp[0][i] = A.charAt(0) == B.charAt(i) ? 1 : 0;
-        }
-
-        for(int i = 1; i < n; i++) {
-            for(int j = 1; j < m; j++) {
-                dp[i][j] = A.charAt(i) == B.charAt(j) ? dp[i - 1][j - 1] + 1
+        for(int i = 1; i <= n; i++) {
+            for(int j = 1; j <= m; j++) {
+                dp[i][j] = A.charAt(i - 1) == B.charAt(j - 1) ? dp[i - 1][j - 1] + 1
                         : Math.max(dp[i - 1][j], dp[i][j - 1]);
             }
         }
 
-        return dp[n - 1][m - 1];
+        return dp[n][m];
     }
 }

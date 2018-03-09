@@ -1,4 +1,4 @@
-package lintcode.dp.oneD;
+package lintcode.dp;
 
 public class LIS {
     /**
