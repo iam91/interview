@@ -4,7 +4,7 @@ public class GetPermutation {
     public String getPermutation(int n, int k) {
         int[] cnt = new int[n];
 
-        
+        return "";
     }
 
     public static void main(String[] args) {
