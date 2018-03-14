@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e5d3c06-f9a0-414c-b3a1-b6fa51e338dc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/LCS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/LICS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/LIS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/LPCS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/LPS.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/MaxSubArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/PalindromicSubstr.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/dp/MaxProductSubArray.java" />
+      <change beforePath="$PROJECT_DIR$/src/tags/dp/MaxSubArray.java" afterPath="$PROJECT_DIR$/src/tags/dp/MaxSumSubArray.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -96,11 +90,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxSubArray.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tags/dp/MaxSubArray.java">
+      <file leaf-file-name="MaxSumSubArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tags/dp/MaxSumSubArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaxProductSubArray.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tags/dp/MaxProductSubArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -126,8 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/dp/LPS.java" />
-        <option value="$PROJECT_DIR$/src/leetcode/dp/IsSubsequence.java" />
         <option value="$PROJECT_DIR$/src/lintcode/dp/twoD/LCS.java" />
         <option value="$PROJECT_DIR$/src/leetcode/string/IsSubsequence.java" />
         <option value="$PROJECT_DIR$/src/lintcode/dp/LICS.java" />
@@ -177,11 +179,13 @@
         <option value="$PROJECT_DIR$/src/tags/dp/LCCS.java" />
         <option value="$PROJECT_DIR$/src/tags/dp/LCS.java" />
         <option value="$PROJECT_DIR$/src/tags/dp/MaxSubArray.java" />
+        <option value="$PROJECT_DIR$/src/tags/dp/MaxSumSubArray.java" />
+        <option value="$PROJECT_DIR$/src/tags/dp/MaxProductSubArray.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-822" />
+    <option name="x" value="392" />
     <option name="y" value="-8" />
     <option name="width" value="744" />
     <option name="height" value="684" />
@@ -490,7 +494,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -690,13 +694,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/tree/BinaryTreeMaxPathSum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/tree/LCA.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -1073,10 +1070,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tags/dp/MaxSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/tags/dp/MaxSumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tags/dp/MaxProductSubArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
           <folding />
         </state>
       </provider>

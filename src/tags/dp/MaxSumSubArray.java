@@ -1,6 +1,6 @@
 package tags.dp;
 
-public class MaxSubArray {
+public class MaxSumSubArray {
     public int maxSubArray(int[] nums) {
         if(nums == null || nums.length == 0) return 0;
 
