@@ -1,6 +1,9 @@
 package tags.string;
 
+// https://web.stanford.edu/class/cs97si/10-string-algorithms.pdf
+
 public class Strstr {
+    // https://leetcode.com/problems/implement-strstr/description/
     public int strStr(String haystack, String needle) {
 //        return brutal(haystack, needle);
         return kmp(haystack, needle);
