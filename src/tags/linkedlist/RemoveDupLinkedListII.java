@@ -2,8 +2,6 @@ package tags.linkedlist;
 
 import tags.tree.ListNode;
 
-import java.util.List;
-
 public class RemoveDupLinkedListII {
     // https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/
 
