@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e5d3c06-f9a0-414c-b3a1-b6fa51e338dc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/random/RandomPickIndex.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/random/ShuffleArray.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test360/Main1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/test360/Main2.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0e5d3c06-f9a0-414c-b3a1-b6fa51e338dc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -78,8 +72,8 @@
       <file leaf-file-name="ShuffleArray.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tags/random/ShuffleArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+            <state relative-caret-position="396">
+              <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
               <folding>
                 <element signature="e#197#198#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
@@ -165,8 +159,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="282" />
-    <option name="y" value="33" />
+    <option name="x" value="-7" />
     <option name="width" value="1380" />
     <option name="height" value="735" />
   </component>
@@ -457,7 +450,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="282" y="33" width="1380" height="735" extended-state="0" />
+    <frame x="-7" y="0" width="1380" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1119,8 +1112,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tags/random/ShuffleArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="396">
+          <caret line="25" column="47" lean-forward="true" selection-start-line="25" selection-start-column="47" selection-end-line="25" selection-end-column="47" />
           <folding>
             <element signature="e#197#198#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
