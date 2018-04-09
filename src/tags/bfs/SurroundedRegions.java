@@ -32,7 +32,7 @@ public class SurroundedRegions {
 
     private void bfs(char[][] board, int i, int j, int n, int m) {
 
-        if(board[i][j] == 'X') return;
+        if(board[i][j] != 'O') return;
 
         List<Integer> xq = new ArrayList<>();
         List<Integer> yq = new ArrayList<>();
@@ -40,27 +40,31 @@ public class SurroundedRegions {
         xq.add(i);
         yq.add(j);
 
+        board[i][j] = '+';
+
         while(!xq.isEmpty()) {
             int x = xq.remove(0);
             int y = yq.remove(0);
 
-            board[x][y] = '+';
-
             if(x > 0 && board[x - 1][y] == 'O') {
                 xq.add(x - 1);
                 yq.add(y);
+                board[x - 1][y] = '+'; // 立即打标记避免重复搜索
             }
             if(x < n - 1 && board[x + 1][y] == 'O') {
                 xq.add(x + 1);
                 yq.add(y);
+                board[x + 1][y] = '+';
             }
             if(y > 0 && board[x][y - 1] == 'O') {
                 xq.add(x);
                 yq.add(y - 1);
+                board[x][y - 1] = '+';
             }
             if(y < m - 1 && board[x][y + 1] == 'O') {
                 xq.add(x);
                 yq.add(y + 1);
+                board[x][y + 1] = '+';
             }
         }
     }
