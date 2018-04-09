@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e5d3c06-f9a0-414c-b3a1-b6fa51e338dc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/search/SearchMatrix.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/tags/search/SearchMatrixII.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/tags/search/SearchMatrix.java" afterPath="$PROJECT_DIR$/src/tags/search/SearchMatrix.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +68,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SearchMatrix.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SearchMatrixII.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tags/search/SearchMatrixII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchMatrix.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tags/search/SearchMatrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="414">
+              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -103,7 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/tags/dp/UniqueBSTII.java" />
         <option value="$PROJECT_DIR$/src/tags/string/Strstr.java" />
         <option value="$PROJECT_DIR$/src/tags/string/RepeatedSubstring.java" />
         <option value="$PROJECT_DIR$/src/tags/string/RepeatedStringMath.java" />
@@ -154,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/tags/dp/EditDistance.java" />
         <option value="$PROJECT_DIR$/src/tags/backtrack/WordSearch.java" />
         <option value="$PROJECT_DIR$/src/tags/search/SearchMatrix.java" />
+        <option value="$PROJECT_DIR$/src/tags/search/SearchMatrixII.java" />
       </list>
     </option>
   </component>
@@ -253,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SearchMatrix">
+  <component name="RunManager" selected="Application.SearchMatrixII">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -299,6 +310,25 @@
       <module name="interview" />
       <envs />
     </configuration>
+    <configuration name="SearchMatrixII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tags.search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="tags.search.SearchMatrixII" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="interview" />
+      <envs />
+    </configuration>
     <configuration name="SurroundedRegions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -326,25 +356,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="tags.bfs.SurroundedRegionsMy" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="interview" />
-      <envs />
-    </configuration>
-    <configuration name="WordLadderIISolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="tags.bfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="tags.bfs.WordLadderIISolution" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -450,19 +461,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.WordLadderIISolution" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
-      <item index="2" class="java.lang.String" itemvalue="Application.EditDistance" />
-      <item index="3" class="java.lang.String" itemvalue="Application.WordSearch" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SearchMatrix" />
+      <item index="0" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
+      <item index="1" class="java.lang.String" itemvalue="Application.EditDistance" />
+      <item index="2" class="java.lang.String" itemvalue="Application.WordSearch" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SearchMatrix" />
+      <item index="4" class="java.lang.String" itemvalue="Application.SearchMatrixII" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SearchMatrix" />
-        <item index="1" class="java.lang.String" itemvalue="Application.WordSearch" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EditDistance" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
-        <item index="4" class="java.lang.String" itemvalue="Application.SurroundedRegionsMy" />
+        <item index="0" class="java.lang.String" itemvalue="Application.SearchMatrixII" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SearchMatrix" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WordSearch" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EditDistance" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SurroundedRegions" />
       </list>
     </recent_temporary>
   </component>
@@ -495,7 +506,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4161184" sideWeight="0.526475" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19769357" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19769357" sideWeight="0.47352496" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -797,19 +808,18 @@
           <properties />
           <option name="timeStamp" value="136" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tags/search/SearchMatrixII.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="137" />
+      <option name="time" value="140" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tags/string/Strstr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tags/sort/KthLargest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -1216,8 +1226,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tags/search/SearchMatrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="12" column="31" lean-forward="false" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        <state relative-caret-position="414">
+          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tags/search/SearchMatrixII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding />
         </state>
       </provider>

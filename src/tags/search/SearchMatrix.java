@@ -20,7 +20,6 @@ public class SearchMatrix {
         } else if(matrix[mid][0] < target) {
             if(r >= mid) return searchRow(matrix[mid], target, 0, matrix[r].length - 1)
                     || searchAll(matrix, target, mid + 1, r);
-            else return false;
         }
         return true;
     }
