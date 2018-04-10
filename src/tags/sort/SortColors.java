@@ -18,14 +18,14 @@ public class SortColors {
         while(i < j) {
             while(i < j && nums[j] >= pivot) {
                 if(nums[j] == pivot) {
-                    swap(nums, j, q--);
+                     swap(nums, j, q--);
                 }
                 j--;
             }
             nums[i] = nums[j];
             while(i < j && nums[i] <= pivot) {
                 if(nums[i] == pivot) {
-                    swap(nums, i, p++);
+                     swap(nums, i, p++);
                 }
                 i++;
             }
@@ -33,10 +33,10 @@ public class SortColors {
         }
         nums[i] = pivot;
 
-        for(int a = i + 1, b = n - 1; a <= q; a++, b--) {
+        for(int a = i + 1, b = n - 1; b > q; a++, b--) {
             swap(nums, a, b);
         }
-        for(int a = i - 1, b = 0; a >= p; a--, b++) {
+        for(int a = i - 1, b = 0; b < p; a--, b++) {
             swap(nums, a, b);
         }
     }
@@ -50,9 +50,9 @@ public class SortColors {
     public static void main(String[] args) {
         SortColors c = new SortColors();
 
-//        int[] a = {1, 2, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 1};
+        int[] a = {1, 2, 0, 0, 2, 1, 1, 2, 1, 0, 2, 2, 0, 1, 1};
 
-        int[] a = {0};
+//        int[] a = {0};
 
         c.sortColors(a);
 
