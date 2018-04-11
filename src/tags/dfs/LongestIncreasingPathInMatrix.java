@@ -1,7 +1,4 @@
-package tags.dp;
-
-import java.util.LinkedList;
-import java.util.Queue;
+package tags.dfs;
 
 /**
  * Created by zwy on 18-4-11.
@@ -13,6 +10,8 @@ public class LongestIncreasingPathInMatrix {
     private static int[] dy = {-1, 1, 0, 0};
 
     public int longestIncreasingPath(int[][] matrix) {
+
+
         if(matrix == null || matrix.length == 0 || matrix[0].length == 0) return 0;
 
         int n = matrix.length;
@@ -26,24 +25,21 @@ public class LongestIncreasingPathInMatrix {
                 if(i == 2 && j == 1) {
                     int a = 1;
                 }
-                max = Math.max(max, dfs(matrix, mem, i, j, Integer.MIN_VALUE));
+                max = Math.max(max, dfs(matrix, mem, i, j));
             }
         }
         return max;
     }
 
-    private int dfs(int[][] matrix, int[][] mem, int x, int y, int pre) {
-
-        if(matrix[x][y] <= pre) return 0;
-
+    private int dfs(int[][] matrix, int[][] mem, int x, int y) {
         if(mem[x][y] > 0) return mem[x][y];
 
         int n = matrix.length;
         int m = matrix[0].length;
-        int up = x > 0 ? dfs(matrix, mem, x - 1, y, matrix[x][y]) : 0;
-        int left = y > 0 ? dfs(matrix, mem, x, y - 1, matrix[x][y]) : 0;
-        int down = x < n - 1 ? dfs(matrix, mem, x + 1, y, matrix[x][y]) : 0;
-        int right = y < m - 1 ? dfs(matrix, mem, x, y + 1, matrix[x][y]) : 0;
+        int up = x > 0 && matrix[x - 1][y] > matrix[x][y] ? dfs(matrix, mem, x - 1, y) : 0;
+        int left = y > 0 && matrix[x][y - 1] > matrix[x][y] ? dfs(matrix, mem, x, y - 1) : 0;
+        int down = x < n - 1 && matrix[x + 1][y] > matrix[x][y] ? dfs(matrix, mem, x + 1, y) : 0;
+        int right = y < m - 1 && matrix[x][y + 1] > matrix[x][y] ? dfs(matrix, mem, x, y + 1) : 0;
 
         return mem[x][y] = (Math.max(up, Math.max(left, Math.max(down, right))) + 1);
     }
